@@ -1,13 +1,14 @@
 body {
   width: 380px;
   margin: 0;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont;
-  background: #0f172a;
+  font-family: "Montserrat" ;
+  background: #ffffff;
   color: #e5e7eb;
+
 }
 
 .header {
-  background: linear-gradient(to right, #6366f1, #9333ea);
+  background: linear-gradient(to right, #38383b, #000000);
   padding: 14px 16px;
 }
 
@@ -27,25 +28,26 @@ body {
 
 button {
   width: 100%;
-  background: #6366f1;
+  background: #e6e6e8;
   border: none;
-  padding: 12px;
-  border-radius: 10px;
-  color: white;
+  padding: 10px;
+  border-radius: 2px;
+  color: black;
   font-weight: 600;
   cursor: pointer;
 }
 
 button:hover {
-  background: #4f46e5;
+  background: #dbdae3;
 }
 
 .output {
-  background: #1e293b;
+  background: #121823;
   padding: 12px;
-  border-radius: 10px;
+  border-radius: 2px;
   margin-top: 12px;
   font-size: 13px;
+  box-shadow: 10px black inset;
 }
 
 .grid {
@@ -56,9 +58,9 @@ button:hover {
 }
 
 .card {
-  background: #1e293b;
+  background: #f9fafb;
   padding: 10px;
-  border-radius: 10px;
+  border-radius: 6px;
 }
 
 .label {
@@ -69,5 +71,5 @@ button:hover {
 .value {
   font-size: 18px;
   font-weight: 700;
-  color: #818cf8;
+  color: #020202;
 }
